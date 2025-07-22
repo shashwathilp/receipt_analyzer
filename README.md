@@ -46,12 +46,19 @@ Pandas (dataframe visualization)
 
 .
 ├── app.py # Main Streamlit app
+
 ├── backend/
+
 │ ├── extraction.py # Extracts text and metadata from uploaded files
+
 │ ├── data_ingestion.py # Validates files, parses content, stores into DB
+
 │ └── storage.py # SQLite DB handler
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 ⚙️ Installation
